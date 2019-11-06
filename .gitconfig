@@ -1,0 +1,35 @@
+[core]
+	excludesfile = /Users/fmosteiro/.gitignore_global
+	compression = 0
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[user]
+	name = Fran Mosteiro
+	email = fmosteiro@theinit.com
+
+[commit]
+	template = /Users/fmosteiro/.stCommitMsg
+	gpgsign = false
+
+[alias]
+	st = status
+	c = !git add -A && git commit
+	reset-permissions = !git diff -p -R --no-color | grep -E \"(diff|(old|new) mode)\" --color=never | git apply
+
+[fetch]
+	prune = true
+
+[push]
+	default = simple
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
