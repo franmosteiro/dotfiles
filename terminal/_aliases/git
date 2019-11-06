@@ -1,5 +1,5 @@
 alias gaa='git add -A'
-alias gc='git c'
+alias gc='git commit -m'
 alias gca='git add --all && git commit --amend --no-edit'
 alias gco='git checkout'
 alias gd='git diff --color'

@@ -8,11 +8,14 @@ function doIt() {
     create_links $HOME/.gitconfig $HOME/.dotfiles/.gitconfig
     create_links $HOME/.gitignore_global $HOME/.dotfiles/.gitignore_global
 
-	source $HOME/.zshrc;
+	echo 'source $HOME/.zshrc ..... '
+    source $HOME/.zshrc;
 
 }
 
 function create_links() {
+
+    echo 'Linking' $1
 
     mkdir -p $HOME/.dotfiles_backup
     mv -f $1 $HOME/.dotfiles_backup
@@ -21,7 +24,7 @@ function create_links() {
     then
         echo "$file is a valid file"
         rm $1
-    elif [ -f $1 ] && [ ! -L $1 ]   
+    else   
         echo "$file is a symlink"
         unlink $1
     fi
@@ -30,13 +33,6 @@ function create_links() {
         
 }
 
-if [ "$1" == "--force" -o "$1" == "-f" ]; then
-	doIt;
-else
-	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
-	echo "";
-	if [[ $REPLY =~ ^[Yy]$ ]]; then
-		doIt;
-	fi;
-fi;
+doIt;
+
 unset doIt;

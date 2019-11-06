@@ -1,5 +1,5 @@
 # fmosteiro's Dotfile Configuration
 
-git clone --bare git@github.com:franmosteiro/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles/
-./bootstrap.sh
+cd $HOME
+git clone git@github.com:franmosteiro/dotfiles.git ~/.dotfiles
+source ~/.dotfiles/bootstrap.sh
