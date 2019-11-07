@@ -152,3 +152,7 @@ SPACESHIP_VI_MODE_COLOR="white"
 source $ZSH/oh-my-zsh.sh
 plugins=(git zsh-autosuggestions zsh-completions)
 autoload -U compinit && compinit
+
+source "$HOME/.zplugin/bin/zplugin.zsh"
+autoload -Uz _zplugin
+(( ${+_comps} )) && _comps[zplugin]=_zplugin
