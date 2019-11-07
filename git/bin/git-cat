@@ -1,0 +1,2 @@
+# Plumbing command which shows the content of a concrete commit hash/file 
+git cat-file -p

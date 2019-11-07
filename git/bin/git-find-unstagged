@@ -1,0 +1,2 @@
+# Plumbing command which shows Git blobs that where created (added with git add .) but never commited
+git fsck --unreachable --no-reflogs

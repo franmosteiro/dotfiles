@@ -1,0 +1,2 @@
+# Plumbing command which shows the logs references and what happened in the last local distributed actions of our repo. We can this way revert all kind of shitty commit 'revert hards'
+git reflog show
