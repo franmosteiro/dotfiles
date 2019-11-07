@@ -1,2 +1,2 @@
-# Delete last commit, but not the files
+# Undo the last commit, keeping its changes (and any further uncommitted changes) in the filesystem
 git reset HEAD~1 --mixed
