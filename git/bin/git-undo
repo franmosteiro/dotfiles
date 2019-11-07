@@ -1,0 +1,2 @@
+# Delete last commit, but not the files
+git reset HEAD~1 --mixed
