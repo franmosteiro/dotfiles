@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 export JAVA_HOME="$HOME/.sdkman/candidates/java/current/"
 export M2_HOME="$HOME/.sdkman/candidates/maven/current"
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"

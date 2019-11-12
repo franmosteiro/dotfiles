@@ -7,6 +7,7 @@ source "$HOME/.dotfiles/terminal/zsh_theme_config"
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 ## Alias
+source "$HOME/.dotfiles/terminal/_aliases/system"
 source "$HOME/.dotfiles/terminal/_aliases/git"
 source "$HOME/.dotfiles/terminal/_aliases/miscellaneous"
 source "$HOME/Documents/Sistemas/network_alias"
