@@ -12,7 +12,8 @@
 
 [user]
 	name = Fran Mosteiro
-	email = fmosteiro@theinit.com
+	email = fran.mosteiro@holaluz.com
+	signingkey = 63A37D36C14AB63A
 
 [commit]
 	template = /Users/fmosteiro/.stCommitMsg
