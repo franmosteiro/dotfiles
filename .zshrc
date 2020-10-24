@@ -1,4 +1,4 @@
-export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="$HOME/bin:/usr/local/sbin:$PATH"
 
 source "$HOME/.dotfiles/terminal/zsh_theme_config"
 
@@ -17,6 +17,7 @@ source "$HOME/.dotfiles/terminal/_exports/general_apps"
 source "$HOME/.dotfiles/terminal/_exports/java_apps"
 
 # fmosteiro's -->
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
