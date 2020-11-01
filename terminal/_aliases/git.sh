@@ -12,4 +12,5 @@ alias gpf='git push --force'
 alias gpl='git pull --rebase --autostash'
 alias gb='git branch'
 alias glo='git log --oneline'
+alias grbi='git rebase -i HEAD~'
 # grn() { git rebase -i HEAD"$1" }

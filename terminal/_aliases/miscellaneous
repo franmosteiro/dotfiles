@@ -1,3 +1,0 @@
-alias zshconfig="vim ~/.zshrc"
-alias mysql=/usr/local/opt/mysql@5.5/bin/mysql
-alias mysqladmin=/usr/local/opt/mysql@5.5/bin/mysqladmin

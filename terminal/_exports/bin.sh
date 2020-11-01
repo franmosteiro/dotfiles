@@ -1,4 +1,4 @@
-export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/bin:/usr/local/sbin:$PATH"
 
 ## node stuff
 export NVM_DIR="$HOME/.nvm"

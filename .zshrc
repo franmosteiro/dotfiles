@@ -4,17 +4,17 @@ source "$HOME/.dotfiles/terminal/zsh_theme_config"
 
 # <!-- fmosteiro's
 
-source "$HOME/.sdkman/bin/sdkman-init.sh"
+sh "$HOME/.sdkman/bin/sdkman-init.sh"
 
 ## Alias
-source "$HOME/.dotfiles/terminal/_aliases/system"
-source "$HOME/.dotfiles/terminal/_aliases/git"
-source "$HOME/.dotfiles/terminal/_aliases/miscellaneous"
+sh "$HOME/.dotfiles/terminal/_aliases/system.sh"
+sh "$HOME/.dotfiles/terminal/_aliases/git.sh"
+sh "$HOME/.dotfiles/terminal/_aliases/misc.sh"
 
 ## Exports
-source "$HOME/.dotfiles/terminal/_exports/bin"
-source "$HOME/.dotfiles/terminal/_exports/general_apps"
-source "$HOME/.dotfiles/terminal/_exports/java_apps"
+sh "$HOME/.dotfiles/terminal/_exports/bin.sh"
+sh "$HOME/.dotfiles/terminal/_exports/general_apps.sh"
+sh "$HOME/.dotfiles/terminal/_exports/java_apps.sh"
 
 # fmosteiro's -->
 
