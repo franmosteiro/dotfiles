@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+##? Checkout alias
+#?? 1.0.0
+##?
+##? Usage:
+##?    git-co <thing>
+
+git checkout $thing
