@@ -2,6 +2,8 @@
 export GITHUB_TOKEN=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
 export SEQURA_SSH_USER=fran.mosteiro
 
+
+PYTHON_PATH='/usr/local/opt/python/libexec'
 RUBY_PATH='/usr/local/opt/ruby'
 RVM='$HOME/.rvm'
 
@@ -21,6 +23,7 @@ paths=(
   "$HOME/bin"
   "$DOTFILES_PATH/bin"
   "$RUBY_PATH/bin"
+  "$PYTHON_PATH/bin"
   "$RVM/bin"
   "$GEM_HOME/bin"
   "/bin"
