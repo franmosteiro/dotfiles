@@ -1,8 +1,3 @@
-## SeQura personal
-export GITHUB_TOKEN=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
-export SEQURA_SSH_USER=fran.mosteiro
-
-
 PYTHON_PATH='/usr/local/opt/python/libexec'
 RUBY_PATH='/usr/local/opt/ruby'
 RVM='$HOME/.rvm'
