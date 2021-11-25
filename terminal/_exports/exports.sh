@@ -2,8 +2,8 @@ PYTHON_PATH="/usr/local/opt/python/libexec"
 RUBY_PATH="/usr/local/opt/ruby"
 RVM="$HOME/.rvm"
 JAVA_HOME="$HOME/.sdkman/candidates/java/current"
-SCALA_HOME="$HOME/.sdkman/candidates/scala/3.1.0"
-SBT_HOME="$HOME/.sdkman/candidates/sbt/1.5.5"
+SCALA_HOME="$HOME/.sdkman/candidates/scala/current"
+SBT_HOME="$HOME/.sdkman/candidates/sbt/current"
 
 export GEM_HOME="$HOME/.gem"
 
