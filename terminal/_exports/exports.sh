@@ -3,7 +3,7 @@ RUBY_PATH="/usr/local/opt/ruby"
 RVM="$HOME/.rvm"
 JAVA_HOME="$HOME/.sdkman/candidates/java/current"
 SCALA_HOME="$HOME/.sdkman/candidates/scala/current"
-SBT_HOME="$HOME/.sdkman/candidates/sbt/current"
+SBT_HOME="$HOME/.sdkman/candidates/sbt/1.5.5"
 
 export GEM_HOME="$HOME/.gem"
 
@@ -16,14 +16,6 @@ export LC_ALL="en_US.UTF-8"
 
 # GPG troubleshotting -> https://stackoverflow.com/questions/41052538/git-error-gpg-failed-to-sign-data
 export GPG_TTY=$(tty)
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# SDK Man replaced GVM. Using for Groovy, Gradle, and Maven Version Management
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 paths=(
   "$HOME/bin"
