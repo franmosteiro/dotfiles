@@ -1,7 +1,7 @@
 [user]
 	name = Fran Mosteiro
 	email = fran.mosteiro@sequra.es
-	signingkey = D50B7645903B59D1 
+	signingkey = 903B59D1 
 
 [fetch]
 	prune = true
